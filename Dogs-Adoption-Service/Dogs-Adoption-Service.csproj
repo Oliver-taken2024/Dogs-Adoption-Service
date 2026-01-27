@@ -7,8 +7,4 @@
     <RootNamespace>Dogs_Adoption_Service</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Views\Dog\" />
-  </ItemGroup>
-
 </Project>

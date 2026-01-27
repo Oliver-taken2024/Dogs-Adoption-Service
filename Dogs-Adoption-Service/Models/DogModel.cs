@@ -1,7 +1,8 @@
 ﻿namespace Dogs_Adoption_Service.Models
 {
     public class DogModel
-    { 
+    {
+        // model over all the properties of a dog
         public int Id { get; set; }
         public string Name { get; set; }
         public int Cutness { get; set; }

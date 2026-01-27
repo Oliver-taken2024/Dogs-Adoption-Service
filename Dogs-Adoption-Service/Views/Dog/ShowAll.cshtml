@@ -1,0 +1,17 @@
+﻿@model List<DogModel>
+
+<h1>List of Dogs</h1>
+
+@* skapa en sida som visar alla hundar och deras information *@
+
+@foreach (var dog in Model.OrderBy(n =>n.Name))
+{
+    <div>
+        <h2>@dog.Name</h2>
+
+        <a asp-action="Adoption" asp-route-id="@dog.Id">Adopt Dog</a> 
+
+
+
+    </div>
+}

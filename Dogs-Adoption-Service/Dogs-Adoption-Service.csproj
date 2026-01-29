@@ -7,4 +7,8 @@
     <RootNamespace>Dogs_Adoption_Service</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Bilder\" />
+  </ItemGroup>
+
 </Project>
